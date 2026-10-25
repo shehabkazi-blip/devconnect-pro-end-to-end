@@ -4,19 +4,19 @@ namespace: devconnect
 resources:
   - ../../base
 images:
-  - name: bongodev/devconnect-frontend
+  - name: shehabkazi/devconnect-frontend
     newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
-  - name: bongodev/devconnect-auth-service
+  - name: shehabkazi/devconnect-auth-service
     newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
-  - name: bongodev/devconnect-user-service
+  - name: shehabkazi/devconnect-user-service
     newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
-  - name: bongodev/devconnect-post-service
+  - name: shehabkazi/devconnect-post-service
     newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
-  - name: bongodev/devconnect-like-service
+  - name: shehabkazi/devconnect-like-service
     newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
-  - name: bongodev/devconnect-comment-service
+  - name: shehabkazi/devconnect-comment-service
     newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
-  - name: bongodev/devconnect-analytics-service
+  - name: shehabkazi/devconnect-analytics-service
     newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
-  - name: bongodev/devconnect-worker-service
+  - name: shehabkazi/devconnect-worker-service
     newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
