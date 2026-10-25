@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: bongodev/devconnect-user-service:latest
+          image: shehabkazi/devconnect-user-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

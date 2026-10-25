@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: bongodev/devconnect-frontend:latest
+          image: shehabkazi/devconnect-frontend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80

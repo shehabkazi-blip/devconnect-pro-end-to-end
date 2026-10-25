@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: like-service
-          image: bongodev/devconnect-like-service:latest
+          image: shehabkazi/devconnect-like-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

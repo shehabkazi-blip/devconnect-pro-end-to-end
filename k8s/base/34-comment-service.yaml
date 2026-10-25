@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: comment-service
-          image: bongodev/devconnect-comment-service:latest
+          image: shehabkazi/devconnect-comment-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: post-service
-          image: bongodev/devconnect-post-service:latest
+          image: shehabkazi/devconnect-post-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

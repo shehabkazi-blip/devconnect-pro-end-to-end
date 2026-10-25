@@ -306,7 +306,7 @@ jobs:
           REMOTE
 
   notify:
-    name: bongoDev CI/CD Email Notification
+    name: shehabkazi CI/CD Email Notification
     runs-on: ubuntu-latest
     needs: [tests, security, docker, gitops, cd-verify]
     if: always()
@@ -328,7 +328,7 @@ jobs:
             echo "badge_color=#dc2626" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Send bongoDev branded email notification
+      - name: Send shehabkazi branded email notification
         if: ${{ env.SMTP_SERVER != '' && env.SMTP_USERNAME != '' && env.SMTP_PASSWORD != '' && env.CI_EMAIL_RECIPIENT != '' }}
         uses: dawidd6/action-send-mail@v3
         with:
@@ -337,9 +337,9 @@ jobs:
           secure: false
           username: ${{ env.SMTP_USERNAME }}
           password: ${{ env.SMTP_PASSWORD }}
-          subject: "bongoDev DevConnect pipeline ${{ steps.result.outputs.status }} - ${{ github.ref_name }}"
+          subject: "shehabkazi DevConnect pipeline ${{ steps.result.outputs.status }} - ${{ github.ref_name }}"
           to: ${{ env.CI_EMAIL_RECIPIENT }}
-          from: bongoDev DevConnect CI/CD <${{ env.SMTP_USERNAME }}>
+          from: shehabkazi DevConnect CI/CD <${{ env.SMTP_USERNAME }}>
           html_body: |
             <div style="margin:0;padding:0;background:#0b1020;font-family:Arial,Helvetica,sans-serif;color:#e5e7eb;">
               <div style="max-width:720px;margin:0 auto;padding:28px;">
@@ -347,7 +347,7 @@ jobs:
                   <div style="display:flex;align-items:center;gap:12px;margin-bottom:22px;">
                     <div style="width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,#7c3aed,#22d3ee);"></div>
                     <div>
-                      <div style="font-size:24px;font-weight:800;color:#fff;letter-spacing:.2px;">bongoDev</div>
+                      <div style="font-size:24px;font-weight:800;color:#fff;letter-spacing:.2px;">shehabkazi</div>
                       <div style="font-size:13px;color:#c4b5fd;">DevConnect Pro CI/CD Notification</div>
                     </div>
                   </div>
@@ -372,12 +372,12 @@ jobs:
                     <div style="background:rgba(30,41,59,.7);padding:14px;border-radius:14px;border:1px solid rgba(148,163,184,.2);grid-column:span 2;"><b>ArgoCD Runtime Verification</b><br><span>${{ needs['cd-verify'].result }}</span></div>
                   </div>
                   <a href="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" style="display:inline-block;background:linear-gradient(135deg,#7c3aed,#2563eb);color:#fff;text-decoration:none;font-weight:800;padding:13px 18px;border-radius:14px;">Open Workflow Run</a>
-                  <p style="margin-top:24px;color:#94a3b8;font-size:13px;line-height:1.6;">This email was sent by GitHub Actions using Gmail SMTP/App Password secrets configured for the bongoDev DevConnect Pro project.</p>
+                  <p style="margin-top:24px;color:#94a3b8;font-size:13px;line-height:1.6;">This email was sent by GitHub Actions using Gmail SMTP/App Password secrets configured for the shehabkazi DevConnect Pro project.</p>
                 </div>
               </div>
             </div>
           body: |
-            bongoDev DevConnect pipeline ${{ steps.result.outputs.status }}
+            shehabkazi DevConnect pipeline ${{ steps.result.outputs.status }}
 
             Repository: ${{ github.repository }}
             Branch: ${{ github.ref_name }}

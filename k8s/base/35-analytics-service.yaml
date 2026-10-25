@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: analytics-service
-          image: bongodev/devconnect-analytics-service:latest
+          image: shehabkazi/devconnect-analytics-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
