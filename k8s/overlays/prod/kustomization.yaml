@@ -5,18 +5,18 @@ resources:
   - ../../base
 images:
   - name: shehabkazi/devconnect-frontend
-    newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
+    newTag: 0387eee595de1762ca9b60e4c6844b487a0b717a
   - name: shehabkazi/devconnect-auth-service
-    newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
+    newTag: 0387eee595de1762ca9b60e4c6844b487a0b717a
   - name: shehabkazi/devconnect-user-service
-    newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
+    newTag: 0387eee595de1762ca9b60e4c6844b487a0b717a
   - name: shehabkazi/devconnect-post-service
-    newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
+    newTag: 0387eee595de1762ca9b60e4c6844b487a0b717a
   - name: shehabkazi/devconnect-like-service
-    newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
+    newTag: 0387eee595de1762ca9b60e4c6844b487a0b717a
   - name: shehabkazi/devconnect-comment-service
-    newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
+    newTag: 0387eee595de1762ca9b60e4c6844b487a0b717a
   - name: shehabkazi/devconnect-analytics-service
-    newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
+    newTag: 0387eee595de1762ca9b60e4c6844b487a0b717a
   - name: shehabkazi/devconnect-worker-service
-    newTag: 1c5bad86e0b9747feb97f3ab71bb5f74216c1f3a
+    newTag: 0387eee595de1762ca9b60e4c6844b487a0b717a
