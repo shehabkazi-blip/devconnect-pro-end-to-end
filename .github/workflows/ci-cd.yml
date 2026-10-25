@@ -1,4 +1,4 @@
-name: DevConnect CI/CD
+name: bongoDev DevConnect CI/CD
 
 on:
   push:
