@@ -1525,4 +1525,4 @@ Optional admin ports like Grafana, ArgoCD, Prometheus, Loki, and Kubernetes API 
 cd terraform
 terraform destroy
 ```
-hello, dev
+hello, dev team
